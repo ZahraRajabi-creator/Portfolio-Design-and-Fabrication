@@ -345,8 +345,17 @@ In this part of the experiment, I wanted to understand how changing the PWM duty
 
 ---
 
-## Circuit Setup
+## Duty Cycle Analysis
 
+<img src="images/Task2.2-A1.jpg" width="350">
+
+<img src="images/Task2.2-A2.jpg" width="350">
+
+<img src="images/Task2.2-A3.jpg" width="350">
+
+<img src="images/Task2.2-A4.jpg" width="350">
+
+<img src="images/Task2.2-A5.jpg" width="350">
 
 
 ---
@@ -397,3 +406,84 @@ I learned that:
 - PWM allows smooth brightness control without continuously changing the supply voltage.
 
 Overall, I observed a simple and nearly linear relationship between duty cycle and brightness.
+
+---
+
+# B) Frequency Analysis
+
+## What I wanted to explore
+
+In this part of the experiment, we kept the duty cycle constant at 50% and changed the frequency of the PWM signal.  
+The goal was to observe how the LED strip behaves at different frequency values.
+
+---
+
+## Measurements & Observations
+
+<h3>5 Hz</h3>
+<img src="images/Task2.2.B1.jpg" width="350">
+
+<img src="images/Task2.2.B2.jpg" width="350">
+
+<h3>25 Hz</h3>
+<img src="images/Task2.2.B3.jpg" width="350">
+
+<h3>45 Hz</h3>
+<img src="images/Task2.2.B4.jpg" width="350">
+
+<h3>100 Hz</h3>
+<img src="images/Task2.2.B5.jpg" width="350">
+
+
+| Frequency | Observation |
+|---|---|
+| 5 Hz | Clearly visible blinking |
+| 25 Hz | Faster blinking, still visible |
+| 45 Hz | Very fast blinking, slightly visible |
+| 100 Hz | Appeared steady, no visible blinking |
+
+---
+
+## Analysis
+
+At a very low frequency, such as 5 Hz, the LED strip was clearly blinking.  
+The light was turning ON and OFF slowly, and the blinking was easy to see.
+
+When we increased the frequency to 25 Hz, the blinking became faster, but it was still visible.
+
+At 45 Hz, the blinking was very fast and harder to notice, but we could still slightly see it.
+
+When we set the frequency to 100 Hz, the LED appeared completely steady.  
+In class, we first thought that something might be wrong with the circuit because the blinking was no longer visible. It looked like the LED was constantly ON.
+
+However, after searching and discussing it, we understood that the LED was still switching ON and OFF.  
+The reason we could not see the blinking was that the frequency was too high for the human eye to detect.
+
+Our eyes cannot follow such fast changes, so the light appears constant.
+
+---
+
+## Why this happens
+
+The frequency controls how fast the LED switches ON and OFF.
+
+- Low frequency → slow switching → visible blinking
+- High frequency → fast switching → blinking becomes invisible
+
+So, at high frequencies, the LED still switches ON and OFF, but human vision perceives it as steady light.
+
+---
+
+## What I learned
+
+This experiment helped me understand the difference between the actual electrical behavior and what we perceive visually.
+
+I learned that:
+
+- The LED can still be switching even when it looks steady.
+- Low PWM frequencies create visible flicker.
+- Higher PWM frequencies make the light appear constant.
+- At around 100 Hz, the blinking was no longer visible to us.
+- The limitation comes from human vision, not from the circuit.
+
+Overall, we observed that increasing the PWM frequency reduces visible flickering until the LED appears stable.

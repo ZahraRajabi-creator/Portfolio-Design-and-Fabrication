@@ -1,9 +1,10 @@
 # Digital Design & Fabrication – Exercise 1  
 ## Electrical Circuits Portfolio
 
-**Students:** Zahra Rajabi, Fatemeh Mazaherian
+**Student:** Zahra Rajabi, Fatemeh Mazaherian
 **Course:** Digital Design & Fabrication  
 **University:** Carl von Ossietzky University Oldenburg  
+**Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte
 
 ---
 

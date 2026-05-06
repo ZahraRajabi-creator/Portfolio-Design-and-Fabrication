@@ -119,6 +119,9 @@ When I flipped or reversed the switch connections, nothing changed in the circui
 But when I changed the direction of the LED, the result was completely different.
 When the LED was connected correctly → it lit up
 When I reversed it → it did not light up at all
+<img src="images/Task1.2(wrong.way).jpg" width="400">
+
+<img src="images/Task1.2(wrongway).jpg" width="400">
 
 ---
 

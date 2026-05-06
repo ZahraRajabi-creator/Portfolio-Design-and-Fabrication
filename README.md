@@ -334,3 +334,66 @@ I learned that:
 - The Gate voltage alone is not enough — the difference between Gate and Source is what matters.
 - Correct grounding is extremely important in electronic circuits.
 - A small 5V signal can control a much larger 12V power circuit safely and efficiently.
+
+- # Task 2.2 – PWM Controlled LED Strip
+
+# A) Duty Cycle Analysis
+
+## What I wanted to explore
+
+In this part of the experiment, I wanted to understand how changing the PWM duty cycle affects the brightness of the LED strip.
+
+---
+
+## Circuit Setup
+
+
+
+---
+
+## Measurements & Observations
+
+| Duty Cycle | Observation |
+|---|---|
+| 2% | Very dim, barely visible |
+| 15% | Slightly brighter |
+| 40% | Clearly visible brightness increase |
+| 75% | Very bright |
+| 100% | Fully ON, maximum brightness |
+
+---
+
+## Analysis
+
+In this part of the experiment, I changed the duty cycle of the PWM signal and observed how the LED strip behaved.
+At the beginning, when the duty cycle was very low (for example 2%), the LED strip was very dim. It was barely visible because it was ON for a very short time and OFF most of the time.
+As I increased the duty cycle to 15% and then 40%, I could clearly see that the brightness increased. The LED became more visible and brighter step by step.
+
+When I set the duty cycle to 75%, the LED was already quite bright, since it stayed ON most of the time.
+Finally, at 100% duty cycle, the LED was fully ON all the time and reached its maximum brightness.
+
+---
+
+## Why this happens
+
+The LED switches ON and OFF very quickly.
+The duty cycle controls how long the LED stays ON during each cycle.
+
+- A small duty cycle → short ON-time → dim LED
+- A large duty cycle → long ON-time → bright LED
+
+So, increasing the ON-time increases the average power delivered to the LED strip.
+
+---
+
+## What I learned
+
+This experiment helped me understand how PWM controls brightness efficiently.
+I learned that:
+
+- Brightness does not depend only on voltage.
+- Rapid switching can control perceived brightness.
+- A higher duty cycle produces a brighter LED.
+- PWM allows smooth brightness control without continuously changing the supply voltage.
+
+Overall, I observed a simple and nearly linear relationship between duty cycle and brightness.

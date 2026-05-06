@@ -106,6 +106,13 @@ and observed what happened in each case.
 
 ---
 
+## Circuit Setup
+<img src="images/Task1.2.switchoff.jpg" width="400">
+
+<img src="images/Task1.2.switchon.jpg" width="400">
+
+---
+
 ## What I noticed
 First, I focused on the switch.
 When I flipped or reversed the switch connections, nothing changed in the circuit behavior. The LED still turned on and off normally when the switch was closed or open.

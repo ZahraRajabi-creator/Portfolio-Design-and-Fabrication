@@ -56,8 +56,8 @@ This mistake actually helped me understand how a breadboard is internally connec
 
 As I increased the resistance, the LED clearly became dimmer.
 <img src="images/task1.1_dimmable_led.3.jpg" width="500">
-At the same time:
 
+At the same time:
 * the voltage across the resistor increased slightly
 * the voltage across the LED decreased
 <img src="images/Task1.1_resistor1.0.4.jpg" width="500">

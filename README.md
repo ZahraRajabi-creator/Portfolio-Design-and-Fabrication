@@ -24,8 +24,9 @@ Then I changed the resistor to higher values (1 kΩ and 4.7 kΩ) and repeated th
 ---
 
 ## Circuit Setup
-task1.1_simple_led.1.jpg
-Task1.1_simple_led.2.jpg
+<img src="images/task1.1_simple_led.1.jpg" width="350">
+
+<img src="images/Task1.1_simple_led.2.jpg" width="350">
 
 ---
 

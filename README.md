@@ -79,4 +79,55 @@ If I had more time, I would test more resistor values and maybe analyze the rela
 
 
 ---
+# Task 1.2 – Switchable LED Circuit
 
+## What I wanted to explore
+
+In this task, I wanted to understand how a switch affects an LED circuit and whether the direction of the switch or the LED makes any difference.
+
+---
+
+## Video Demonstration
+
+[▶ Watch Video](videos/task1_2_switchable_led.mp4)
+
+---
+
+## What I did
+I built the circuit based on the given schematic using:
+a 5V power supply
+a resistor (220Ω)
+an LED
+a switch
+Then I tested two things:
+I changed the direction of the switch
+I reversed the direction of the LED
+and observed what happened in each case.
+
+---
+
+## What I noticed
+First, I focused on the switch.
+When I flipped or reversed the switch connections, nothing changed in the circuit behavior. The LED still turned on and off normally when the switch was closed or open.
+But when I changed the direction of the LED, the result was completely different.
+When the LED was connected correctly → it lit up
+When I reversed it → it did not light up at all
+
+---
+
+## Why this happens
+This helped me understand an important difference between components:
+The switch has no polarity. It only opens or closes the circuit, so its direction does not matter.
+The LED has polarity. It only allows current to flow in one direction.
+So if the LED is connected in the wrong direction, the current cannot pass through it, and it stays off.
+
+---
+
+## What I learned
+This experiment made a key concept very clear for me.
+At first, I thought the direction of all components might matter, but now I understand that only some components (like LEDs) are directional.
+Understanding polarity is very important, because if a component like an LED is connected incorrectly, the circuit will not work even if everything else is correct.
+The switch is simple — it just controls whether the circuit is open or closed.
+But the LED is more sensitive and only works when connected correctly.
+
+---

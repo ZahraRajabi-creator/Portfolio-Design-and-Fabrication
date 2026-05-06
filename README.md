@@ -197,3 +197,140 @@ When I changed the position of the potentiometer:
 
 This exercise improved my understanding of LEDs, resistors, potentiometers, MOSFETs, and PWM-based brightness control.
 It also helped me better understand breadboard connections and troubleshooting techniques.
+
+# Task 2.1 – Switchable LED Strip
+
+## What I wanted to explore
+
+In this task, I wanted to understand how a MOSFET can control a high-power LED strip using a small control voltage. I was especially curious about the role of the Gate voltage and how the MOSFET behaves as an electronic switch.
+
+---
+
+## Circuit Setup
+
+<img src="images/Task2.1.jpg" width="400">
+
+<img src="images/Task2.1(details).jpg" width="400">
+
+<img src="images/Task2.1.off.jpg" width="400">
+
+---
+
+## Observations
+
+When I built the circuit and tested the switch, the behavior was very clear:
+
+- When I turned the switch ON, the LED strip lit up immediately.
+- When I turned the switch OFF, the LED strip turned off completely.
+
+---
+
+## Which Voltage Did I Control?
+
+In this experiment, I controlled the 5V signal at the Gate of the MOSFET.
+
+At first, I thought the switch might directly power the LED strip — but that’s not what happens here.
+
+- The 5V (from USB) is only a control signal.
+- The 12V supply is the actual power source for the LED strip.
+
+So:
+
+- 5V → control signal (Gate)
+- 12V → power source (LED strip)
+
+The switch does not directly power the LED strip. Instead, it controls the MOSFET.
+
+---
+
+## How the MOSFET Works (My Understanding)
+
+This experiment helped me understand the MOSFET as a voltage-controlled switch.
+
+The MOSFET has three important terminals:
+
+- Gate (G)
+- Drain (D)
+- Source (S)
+
+The Gate voltage controls the entire behavior.
+
+### When Gate = 5V
+
+- The MOSFET turns ON.
+- A connection forms between Drain and Source.
+- Current flows from the 12V supply through the LED strip.
+- ✅ The LED strip turns ON.
+
+### When Gate = 0V
+
+- The MOSFET turns OFF.
+- No connection exists between Drain and Source.
+- No current flows.
+- ❌ The LED strip stays OFF.
+
+So, the MOSFET acts like an electronic switch without moving parts.
+
+---
+
+## Initial Problem & Troubleshooting
+
+At the beginning, my circuit did not work.
+
+### What I did wrong
+
+I connected the MOSFET incorrectly.
+
+Specifically, I did not connect the Source to GND properly.
+
+### What happened
+
+- The Source voltage became too high.
+- The voltage difference between Gate and Source became too small.
+
+### Why this is a problem
+
+For an N-channel MOSFET to turn ON:
+
+V_{GS} = V_G - V_S
+
+The Gate voltage must be higher than the Source voltage.
+
+In my incorrect setup:
+
+- Gate = 5V
+- Source = also high (not 0V)
+
+So:
+
+- ❌ \(V_{GS}\) was too small.
+- ❌ The MOSFET stayed OFF.
+
+### How I fixed it
+
+I connected the Source directly to GND.
+
+Now:
+
+- Gate = 5V
+- Source = 0V
+
+So:
+
+V_{GS} = 5V - 0V = 5V
+
+- ✅ The MOSFET turned ON correctly.
+- ✅ The LED strip worked properly.
+
+---
+
+## What I learned
+
+This experiment helped me better understand how MOSFETs work in real circuits.
+
+I learned that:
+
+- The MOSFET is controlled by voltage, not directly by current.
+- The Gate voltage alone is not enough — the difference between Gate and Source is what matters.
+- Correct grounding is extremely important in electronic circuits.
+- A small 5V signal can control a much larger 12V power circuit safely and efficiently.

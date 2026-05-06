@@ -55,6 +55,7 @@ This mistake actually helped me understand how a breadboard is internally connec
 ## What I noticed
 
 As I increased the resistance, the LED clearly became dimmer.
+
 <img src="images/task1.1_dimmable_led.3.jpg" width="500">
 
 At the same time:
@@ -139,5 +140,50 @@ At first, I thought the direction of all components might matter, but now I unde
 Understanding polarity is very important, because if a component like an LED is connected incorrectly, the circuit will not work even if everything else is correct.
 The switch is simple — it just controls whether the circuit is open or closed.
 But the LED is more sensitive and only works when connected correctly.
+
+---
+# Task 1.3 – Dimmable LED Circuit
+
+## What I wanted to explore
+
+In this exercise, I wanted to understand how the brightness of an LED can be controlled using a potentiometer. I was also curious to see how the voltages change and what kind of relationship exists between them.
+
+---
+
+## Circuit Setup
+
+
+---
+
+## What I did
+
+While building the circuit, I learned an important practical point about the potentiometer:
+
+- The middle pin (wiper) is the output and is connected to the circuit path toward the LED using a jumper wire.
+- ⚠️ It is not directly connected only to the LED, but is actually part of the complete current path in the circuit.
+- The right pin is connected to the resistor.
+- The left pin is connected to ground (the negative side of the breadboard).
+
+Understanding this helped me wire the circuit correctly.
+
+---
+
+## Measurements
+
+| Position | V_LED (V) | V2 (V) |
+|---|---|---|
+| Full brightness | ~2.93 | ~2.99 |
+| Dimmed | ~2.24 | ~2.23 |
+| OFF | ~0.05 | ~0.04 |
+
+---
+
+## What I observed
+
+When I changed the position of the potentiometer:
+
+- The LED brightness changed smoothly, not suddenly.
+- Rotating the potentiometer gradually increased or decreased the brightness.
+- The LED became dimmer when the output voltage decreased.
 
 ---

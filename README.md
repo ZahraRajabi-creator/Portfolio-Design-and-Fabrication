@@ -89,7 +89,7 @@ In this task, I wanted to understand how a switch affects an LED circuit and whe
 
 ## Video Demonstration
 
-[▶ Watch Video](videos/task1_2_switchable_led.mp4)
+[▶ Watch Video Demo](videos/task2_1_demo.mp4.mov)
 
 ---
 

@@ -11,6 +11,8 @@ The project was completed step by step by first testing each component separatel
 
 In this exercise, we connected the buzzer to the Arduino Uno and tested it using the provided code.
 
+[Watch the timelapse setup video](videos/timelapse-setup.mp4)
+
 At first, the buzzer did not produce any sound. After checking the circuit and comparing it with the schematic, we noticed that the buzzer was connected in the wrong direction. After correcting the connection, the buzzer started working properly.
 
 The photo below shows the buzzer test circuit on the breadboard.

@@ -60,3 +60,47 @@ From this experiment, we understood that:
 - `HIGH` activates the buzzer
 - `LOW` stops the sound
 - `delay()` controls the timing of the beeps
+- ## Sub-circuit 2 – LCD Screen
+
+In this step, we connected the 16x2 LCD screen to the Arduino Uno using the I2C interface. The LCD uses four main connections: VCC, GND, SDA, and SCL. VCC was connected to the 5V pin of the Arduino, GND to the Arduino ground, SDA to the SDA pin, and SCL to the SCL pin.
+
+To communicate with the display, we used the `LiquidCrystal_I2C` library. This library made it easier to print text on the LCD screen through I2C communication.
+
+At first, the LCD screen did not work correctly. We checked the wiring multiple times and tested the connections, but nothing appeared on the display.
+
+The image below shows the first LCD setup where the screen was not working properly.
+
+![Defective LCD screen](images/lcd-defective.jpg)
+
+After troubleshooting the setup, we realized that the LCD itself was defective. We replaced it with another LCD module, and after reconnecting it, the display started working correctly.
+
+The image below shows the working LCD after replacing the defective screen.
+
+![Working LCD screen](images/lcd-working.jpg)
+
+To test the display, we uploaded the LCD test code in the Arduino IDE. After the correct LCD was connected, the message appeared successfully on the screen. This confirmed that the Arduino was communicating correctly with the LCD through I2C.
+
+The video below shows the LCD test and setup process.
+
+[Watch the LCD setup video](videos/lcd-test.mp4)
+
+```cpp
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+void setup() {
+
+  lcd.init();
+  lcd.backlight();
+
+  lcd.setCursor(0, 0);
+  lcd.print("Hello World");
+}
+
+void loop() {
+}
+```
+
+From this step, we understood how I2C communication works and how the Arduino can send text data to an external display.

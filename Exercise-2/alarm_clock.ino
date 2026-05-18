@@ -144,3 +144,4 @@ void print2(int number) {
   }
 
   lcd.print(number);
+}

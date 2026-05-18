@@ -52,7 +52,7 @@ We also changed the value of `howManyRings` from 3 to 4, and the buzzer beeped 4
 
 The video below shows the buzzer working after fixing the connection.
 
-[Watch the buzzer test video](videos/buzzer-test.mp4)
+[Download the buzzer test video](videos/buzzer-test.MOV.zip)
 
 From this experiment, we understood that:
 - `HIGH` activates the buzzer

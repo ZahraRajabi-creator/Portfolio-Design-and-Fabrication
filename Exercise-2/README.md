@@ -11,7 +11,7 @@ The project was completed step by step by first testing each component separatel
 
 In this exercise, we connected the buzzer to the Arduino Uno and tested it using the provided code.
 
-[Watch the timelapse setup video](videos/timelapse-setup.mp4)
+[Watch the timelapse setup video](videos/timelapse-setup 2.mp4.zip)
 
 At first, the buzzer did not produce any sound. After checking the circuit and comparing it with the schematic, we noticed that the buzzer was connected in the wrong direction. After correcting the connection, the buzzer started working properly.
 
@@ -82,7 +82,7 @@ To test the display, we uploaded the LCD test code in the Arduino IDE. After the
 
 The video below shows the LCD test and setup process.
 
-[Watch the LCD setup video](videos/lcd-test.mp4)
+[Watch the LCD setup video](videos/lcd-test.mp4.zip)
 
 ```cpp
 #include <Wire.h>

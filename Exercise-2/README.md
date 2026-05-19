@@ -1,4 +1,9 @@
 # Digital Design & Fabrication – Exercise 2
+**Student:** Zahra Rajabi, Fatemeh Mazaherian
+**Course:** Digital Design & Fabrication  
+**University:** Carl von Ossietzky University Oldenburg  
+**Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte
+
 ## Introduction
 
 In this exercise, we built a functional alarm clock using Arduino Uno and different electronic components. The main goal of the project was to understand how multiple devices can work together in one system.

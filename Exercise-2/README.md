@@ -104,3 +104,54 @@ void loop() {
 ```
 
 From this step, we understood how I2C communication works and how the Arduino can send text data to an external display.
+## Sub-circuit 3: RTC Module and Time Display
+
+In this step, we connected the Real Time Clock (RTC) module to the Arduino Uno. The RTC module was used to keep and read the real time. Similar to the LCD screen, the RTC communicates through the I2C protocol.
+
+Before using the LCD and RTC together, we first tested the I2C connection using an I2C scanner code in the Arduino IDE. The scanner detected the LCD address as `0x27`.
+
+The image below shows the I2C scanner result in the Serial Monitor.
+
+![I2C scanner result](images/i2c-scanner.jpg)
+
+After finding the correct address, we initialized the LCD in the Arduino code using:
+
+```cpp
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+```
+
+The RTC module and LCD were connected using the same SDA and SCL lines.
+
+### Wiring
+
+```text
+LCD VCC  → Arduino 5V
+LCD GND  → Arduino GND
+LCD SDA  → Arduino SDA / A4
+LCD SCL  → Arduino SCL / A5
+
+RTC VCC  → Arduino 5V
+RTC GND  → Arduino GND
+RTC SDA  → Arduino SDA / A4
+RTC SCL  → Arduino SCL / A5
+```
+
+Because both devices use I2C communication, they can share the same SDA and SCL pins while using different addresses.
+
+We used the `RTClib` library to read the current time from the RTC module and display it on the LCD screen. We also connected a buzzer to digital pin 4 and tested a simple alarm system.
+
+During testing, we changed the alarm time several times to verify that the system worked correctly.
+
+The image below shows the RTC, LCD, buzzer, and button setup during the alarm clock test.
+
+![RTC alarm setup](images/rtc-alarm-setup.jpg)
+
+The video below shows the RTC alarm system running on the Arduino setup.
+
+[Watch the RTC alarm demo](videos/rtc-alarm-demo.mp4.zip)
+
+The full Arduino code for this part is available in:
+
+[View the Arduino code](alarm_clock.ino)
+
+From this step, we learned how Arduino can communicate with multiple I2C devices at the same time and display real-time information on the LCD screen.

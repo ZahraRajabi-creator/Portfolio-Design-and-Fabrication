@@ -150,8 +150,5 @@ The video below shows the RTC alarm system running on the Arduino setup.
 
 [Watch the RTC alarm demo](videos/rtc-alarm-demo.mp4.zip)
 
-The full Arduino code for this part is available in:
-
-[View the Arduino code](alarm_clock.ino)
 
 From this step, we learned how Arduino can communicate with multiple I2C devices at the same time and display real-time information on the LCD screen.

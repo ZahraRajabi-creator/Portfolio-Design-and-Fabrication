@@ -198,7 +198,7 @@ If the alarm was enabled, the letter `A` appeared on the display. If the alarm w
 
 The final Arduino code is available here:
 
-[View Final Alarm Clock Code](codes/final-alarm-clock.ino)
+[View Final Alarm Clock Code](codes/alarm_clock.ino)
 
 The video below shows the final alarm clock system working with the button controls.
 

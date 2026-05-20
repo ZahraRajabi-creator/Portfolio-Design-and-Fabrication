@@ -220,6 +220,14 @@ In this version, the user could directly adjust the alarm time using the buttons
 
 If the alarm was enabled, the letter `A` appeared on the display. If the alarm was disabled, the letter `X` was displayed instead.
 
+We also tested different buzzer frequencies in the code to change the alarm sound pitch.
+
+```cpp
+tone(buzzerPin, 1200);
+```
+
+By changing the frequency value inside the `tone()` function, the buzzer sound became either higher or lower. Higher frequency values produced sharper sounds, while lower values produced deeper sounds.
+
 The final Arduino code is available here:
 
 [View Final Alarm Clock Code](codes/alarm_clock.ino)

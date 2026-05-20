@@ -163,7 +163,7 @@ From this step, we learned how Arduino can communicate with multiple I2C devices
 In this stage, we expanded the alarm clock by adding push button controls. The buttons were connected using the Arduino `INPUT_PULLUP` configuration.
 We tested three different versions of the alarm control system.
 
-[Final alarm clock setup](images/final-alarm-setup.jpg)
+![Final alarm clock setup](images/final-alarm-setup.jpg)
 
 ### First Version
 

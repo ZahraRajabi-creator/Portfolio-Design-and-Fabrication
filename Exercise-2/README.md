@@ -177,7 +177,7 @@ As shown in the previous RTC test, the buzzer was activated when the current tim
 
 The second version was mainly used as another functional test with a different alarm time. This helped us verify that the RTC, LCD, buzzer, and push button were working correctly together.
 
-[View Second Button Test Code](codes/button-test-2.ino)
+[Watch the second alarm test video](videos/second-alarm-test.mp4)
 
 ---
 

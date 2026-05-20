@@ -157,3 +157,51 @@ The video below shows the RTC alarm system running on the Arduino setup.
 
 
 From this step, we learned how Arduino can communicate with multiple I2C devices at the same time and display real-time information on the LCD screen.
+
+## Sub-circuit 4 – Push Buttons and Alarm Control
+
+In this stage, we expanded the alarm clock by adding push button controls. The buttons were connected using the Arduino `INPUT_PULLUP` configuration.
+We tested three different versions of the alarm control system.
+
+[Final alarm clock setup](images/final-alarm-setup.jpg)
+
+### First Version
+
+In the first version, we extended the previous RTC and alarm circuit by adding a push button to stop the alarm sound.
+
+As shown in the previous RTC test, the buzzer was activated when the current time matched the predefined alarm time. In this version, pressing the push button stopped the alarm and displayed the message `Alarm stopped` on the LCD screen.
+
+---
+
+### Second Version
+
+The second version was mainly used as another functional test with a different alarm time. This helped us verify that the RTC, LCD, buzzer, and push button were working correctly together.
+
+[View Second Button Test Code](codes/button-test-2.ino)
+
+---
+
+### Final Version
+
+In the final version, we used four push buttons instead of only one.
+
+The buttons had the following functions:
+
+- Blue button → increase the alarm hour
+- White button → increase the alarm minute
+- Black button → enable or disable the alarm
+- Red button → stop the alarm sound
+
+In this version, the user could directly adjust the alarm time using the buttons. The LCD displayed both the current time and the alarm time.
+
+If the alarm was enabled, the letter `A` appeared on the display. If the alarm was disabled, the letter `X` was displayed instead.
+
+The final Arduino code is available here:
+
+[View Final Alarm Clock Code](codes/final-alarm-clock.ino)
+
+The video below shows the final alarm clock system working with the button controls.
+
+[Watch the final alarm demo](videos/final-alarm-demo.mp4)
+
+This final version made the alarm clock more interactive and easier to control directly using the hardware buttons.

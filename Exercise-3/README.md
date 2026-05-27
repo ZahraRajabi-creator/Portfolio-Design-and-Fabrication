@@ -106,12 +106,15 @@ This helped verify:
 
 The LED indicators on the MOSFET modules were also used for debugging. If the LED turned on but the pump did not work, the issue was usually related to the power supply or actuator wiring.
 
-### Test Code
+## Test Code
+
+```cpp
 const int pumpInflate = 5;
 const int pumpDeflate = 8;
 const int valvePin = 10;
 
 void setup() {
+
   pinMode(pumpInflate, OUTPUT);
   pinMode(pumpDeflate, OUTPUT);
   pinMode(valvePin, OUTPUT);
@@ -145,6 +148,7 @@ void loop() {
 
   delay(3000);
 }
+```
 
 ### Test Video
 

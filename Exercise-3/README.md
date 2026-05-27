@@ -202,42 +202,51 @@ Before combining the sensor with the pneumatic system, we first tested the FSR s
 
 ---
 
-### Sensor Test Code
-/* FSR simple testing sketch. 
- 
+## Sensor Test Code
+
+```cpp
+/* FSR simple testing sketch.
+
 Connect one end of FSR to power, the other end to Analog 0.
-Then connect one end of a 10K resistor from Analog 0 to ground 
- 
-For more information see www.ladyada.net/learn/sensors/fsr.html */
- 
+Then connect one end of a 10K resistor from Analog 0 to ground.
+
+For more information see www.ladyada.net/learn/sensors/fsr.html
+*/
+
 int fsrPin = 0;
 int fsrReading;
- 
+
 void setup(void) {
-  Serial.begin(9600);   
+
+  Serial.begin(9600);
 }
- 
+
 void loop(void) {
-  fsrReading = analogRead(fsrPin);  
- 
+
+  fsrReading = analogRead(fsrPin);
+
   Serial.print("Analog reading = ");
   Serial.print(fsrReading);
- 
+
   if (fsrReading < 10) {
     Serial.println(" - No pressure");
+
   } else if (fsrReading < 200) {
     Serial.println(" - Light touch");
+
   } else if (fsrReading < 500) {
     Serial.println(" - Light squeeze");
+
   } else if (fsrReading < 800) {
     Serial.println(" - Medium squeeze");
+
   } else {
     Serial.println(" - Big squeeze");
   }
 
   delay(1000);
 }
-
+```
 ---
 
 ### Sensor Test Video

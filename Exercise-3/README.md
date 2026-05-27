@@ -310,3 +310,13 @@ One of the main debugging challenges happened after adding the push button inter
 Most of the problems were solved by testing each component separately, checking the wiring step by step, and adjusting the Arduino code and pneumatic tubing during debugging.
 
 The LED indicators on the MOSFET modules were especially useful during troubleshooting because they helped verify whether the Arduino signals were working correctly.
+
+## Conclusion
+
+During this exercise, we learned how different Arduino components can be integrated into one complete interactive system. Step by step, we tested and combined sensors, pneumatic components, MOSFET modules, push buttons, pumps, and valves into the final stress pillow prototype.
+
+One of the most important parts of the project was troubleshooting and solving technical problems. Several issues appeared during the development process, such as wiring mistakes, unstable connections, and component synchronization problems. By testing the hardware step by step and modifying the Arduino code, we were able to improve the system functionality.
+
+We also experimented with different sensor values, alarm sounds, button interactions, and pneumatic behaviors. This helped us better understand how Arduino systems react to physical interaction and user input in real time.
+
+Overall, this project gave us practical experience with Arduino programming, electronics, sensor integration, actuator control, and interactive prototyping.

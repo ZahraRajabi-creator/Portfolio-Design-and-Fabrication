@@ -265,6 +265,8 @@ Later in the project, we decided to add an additional push button to improve the
 
 To implement this behavior, the Arduino code was modified to include the push button input and additional control logic for deflation.
 
+![Deflation button setup](images/deflation-button-setup.jpg)
+
 During testing, the button initially did not work correctly even though the Serial Monitor values appeared normal. After checking the code and testing the system multiple times, we discovered that the issue was caused by incorrect wiring. The button GND connection had not been properly connected to the circuit ground.
 
 

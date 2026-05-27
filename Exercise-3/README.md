@@ -6,9 +6,6 @@
 **University:** Carl von Ossietzky University Oldenburg  
 **Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte
 
-Exercise3 
-# Pneumatic Stress Pillow
-
 ## Components Overview
 
 - Arduino Uno

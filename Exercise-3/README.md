@@ -6,6 +6,8 @@
 **University:** Carl von Ossietzky University Oldenburg  
 **Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte
 
+Exercise3 
+# Pneumatic Stress Pillow
 
 ## Components Overview
 
@@ -29,7 +31,7 @@
 
 - Alligator Clips
 
-![Components](images/components.jpg)
+![Components](images/components.jpg) 
 
 ## Overview
 
@@ -38,6 +40,8 @@ For this project, we worked with different pneumatic and electronic components, 
 The inflatable pillow was connected to the pneumatic system, where the pumps controlled inflation and deflation while the valve switched the airflow direction. The MOSFET modules were used to safely control the pumps and valve through the Arduino.
 
 To make the interaction more responsive, a force-sensitive sensor was integrated into the system. When pressure was applied, the Arduino reacted to the sensor input and controlled the airflow inside the pillow accordingly.
+
+
 
 ---
 
@@ -151,124 +155,9 @@ void loop() {
 
 ---
 
-## Resources
-
-During the project, we used different online resources and product pages to better understand the pneumatic components and MOSFET modules.
-
-### Air Pump
-[Adafruit Air Pump Product Page](https://www.adafruit.com/product/4699)
-
-From this page, we learned about:
-- operating voltage
-- current consumption
-- airflow direction
-- polarity requirements
-
-### Air Valve
-[Adafruit Air Valve Product Page](https://www.adafruit.com/product/4663)
-
-This resource helped us understand:
-- valve port behavior
-- switching states
-- airflow routing
-
-### IRF520 MOSFET Module
-[Arduino Forum – IRF520 MOSFET Module](https://forum.arduino.cc/t/irf520-mosfet-module/487455)
-
-This discussion helped us better understand:
-- MOSFET switching behavior
-- external power requirements
-- correct Arduino-to-MOSFET wiring
-
-- ## Part B – Sensor Interaction
-
-For the interaction part, we used a Force Sensitive Resistor (FSR). The idea was to make the stress pillow react to physical pressure from the user.
-
-The FSR was connected to the Arduino as an analog input. One side of the sensor was connected to power, and the other side was connected to analog pin A0. A 10K resistor was used as a pull-down resistor between A0 and GND. This setup allowed the Arduino to read changing analog values depending on how much pressure was applied to the sensor.
-
-Before combining the sensor with the pneumatic system, we first tested the FSR separately using the Serial Monitor. The test code printed the raw analog value and described the pressure level as no pressure, light touch, light squeeze, medium squeeze, or big squeeze.
-
-### Sensor Interaction Setup
-
-![Sensor Setup](images/sensor_setup.jpg)
-
-![Complete Interaction System](images/interaction_system.jpg)
-
----
-
-### Sensor Test Code
-/* FSR simple testing sketch. 
- 
-Connect one end of FSR to power, the other end to Analog 0.
-Then connect one end of a 10K resistor from Analog 0 to ground 
- 
-For more information see www.ladyada.net/learn/sensors/fsr.html */
- 
-int fsrPin = 0;
-int fsrReading;
- 
-void setup(void) {
-  Serial.begin(9600);   
-}
- 
-void loop(void) {
-  fsrReading = analogRead(fsrPin);  
- 
-  Serial.print("Analog reading = ");
-  Serial.print(fsrReading);
- 
-  if (fsrReading < 10) {
-    Serial.println(" - No pressure");
-  } else if (fsrReading < 200) {
-    Serial.println(" - Light touch");
-  } else if (fsrReading < 500) {
-    Serial.println(" - Light squeeze");
-  } else if (fsrReading < 800) {
-    Serial.println(" - Medium squeeze");
-  } else {
-    Serial.println(" - Big squeeze");
-  }
-
-  delay(1000);
-}
-
----
-
-### Sensor Test Video
-
-[Watch Sensor Test Video](videos/sensor_test.mp4)
-
----
-
-### Sensor Resource
-
-[Adafruit FSR Guide](https://learn.adafruit.com/force-sensitive-resistor-fsr/using-an-fsr)
-
-From this guide, we learned:
-- how to connect the FSR to Arduino
-- why a 10K pull-down resistor is needed
-- how to read analog pressure values from pin A0
-- how to use the Serial Monitor to test different pressure levels
-
-- ## Combining Both Parts
-
-After testing the pneumatic system and the force-sensitive sensor separately, both parts were combined into one interactive setup.
-
-The Arduino continuously monitored the FSR sensor values and reacted to physical pressure applied by the user. Based on the sensor input, the pumps inflated the stress pillow through the pneumatic system.
-
-Later in the project, we decided to add an additional push button to improve the interaction. The idea was that:
-- the pillow inflates when pressure is applied to the FSR sensor,
-- and deflates when the red push button is pressed.
-
-To implement this behavior, the Arduino code was modified to include the push button input and additional control logic for deflation.
-
-During testing, the button initially did not work correctly even though the Serial Monitor values appeared normal. After checking the code and testing the system multiple times, we discovered that the issue was caused by incorrect wiring. The button GND connection had not been properly connected to the circuit ground.
-
 After reconnecting the wiring correctly, the button worked as expected and the pillow could successfully inflate and deflate through two different user interactions.
 
 ### Combined System
-
-![Combined System](images/final_system.jpg)
 
 [Watch Final Demo](videos/final_demo.mp4)
 
@@ -291,41 +180,3 @@ One of the main debugging challenges happened after adding the push button inter
 Most of the problems were solved by testing each component separately, checking the wiring step by step, and adjusting the Arduino code and pneumatic tubing during debugging.
 
 The LED indicators on the MOSFET modules were especially useful during troubleshooting because they helped verify whether the Arduino signals were working correctly.
-
----
-
-## Final Result
-
-The final system successfully combined pneumatic actuation and sensor interaction into one working prototype.
-
-The stress pillow was able to inflate through pressure applied to the FSR sensor and deflate through the push button interaction while the pumps and valve controlled the airflow inside the inflatable structure.
-
-The final interaction created a simple responsive object that combined electronics, sensors, pneumatic movement, and physical interaction.
-
-### Final Demonstration
-
-![Final Result](images/final_result.jpg)
-
-[Watch Final Demo](videos/final_demo.mp4)
-
-## Arduino Code
-
-The complete Arduino source code for the final interactive system can be found in the code/ directory of this repository.
-
----
-
-## Reflection
-
-Through this project, we gained practical experience with:
-- pneumatic systems
-- MOSFET control
-- actuator integration
-- Arduino-based interaction design
-- hardware debugging
-- sensor calibration
-
-One of the most challenging parts was debugging the pneumatic airflow and correctly connecting the valve and pumps. However, testing each component separately made it easier to identify problems step by step.
-
-Adding the push button interaction also helped us better understand circuit debugging and the importance of correct ground connections in Arduino systems.
-
-Overall, the project was both challenging and enjoyable, especially during the testing and interaction design process.

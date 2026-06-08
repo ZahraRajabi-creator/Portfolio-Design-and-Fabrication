@@ -9,66 +9,35 @@
 
 ## Project Overview
 
-In this exercise, I created an e-textile patch that can be attached to clothing.  
-The patch is shaped like a heart and includes six sewable LEDs, a coin-cell battery holder, and conductive thread.
+In this exercise, I created an e-textile heart-shaped patch with six sewable LEDs, a coin-cell battery holder, and conductive thread.
 
 ---
 
 ## Materials
 
-- Purple textile fabric
-- Sewable LEDs
-- Sewable coin-cell battery holder
-- Coin-cell battery
-- Conductive thread
-- Sewing needle
-- Scissors
-- Decorative star
-- Regular sewing thread
-
-![Available materials](Images/materials.jpg)
-## Test
-
-<img src="./Images/materials.jpg" width="600">
----
-
-## Process
-
-### 1. Preparing the Textile Base
-
-I chose a heart shape for my patch and cut two textile pieces. One layer was used as the base for the circuit, and the second layer was used as the cover.
-
-![Heart textile pieces](Images/heart-pieces.jpg)
+![Materials](./Images/materials.jpg)
 
 ---
 
-### 2. Sewing the Circuit
+## Preparing the Textile Base
 
-I used conductive thread to connect the LEDs with the battery holder.
-
-To avoid short circuits, I separated the conductive paths. The positive connections were sewn on the back side of the textile, while the negative connections were sewn on the front side. This ensured that the conductive threads did not cross or touch each other.
-
-![Sewing process](Images/sewing-process.jpg)
+![Heart pieces](./Images/heart-pieces.jpg)
 
 ---
 
-### 3. Testing and Debugging
+## Sewing Process
 
-During testing, the LEDs did not work correctly at first. Some LEDs did not turn on because the first conductive thread had a very high resistance. Later, I also realized that I had connected the LEDs in series instead of parallel.
+To avoid short circuits, I separated the conductive paths. The positive connections were sewn on the back side of the textile, while the negative connections were sewn on the front side.
 
-![Testing circuit](Images/testing.jpg)
+![Sewing process](./Images/sewing-process.jpg)
 
 ---
 
-## Problems and Challenges
+## Testing and Debugging
 
-The first problem appeared after I had finished sewing the circuit. When I inserted the battery, none of the LEDs turned on. After checking the circuit, I discovered that the conductive thread I had used had a very high electrical resistance.
+At first, the LEDs did not work correctly because the conductive thread had very high resistance. Later, I also realized that I had connected the LEDs in series instead of parallel.
 
-After replacing the thread, I faced another issue. Some LEDs did not light up correctly because I had connected the LEDs in a series circuit instead of a parallel circuit. Since conductive thread already has resistance, the series circuit caused a voltage drop, and the LEDs could not receive enough power.
-
-To solve this, I redesigned the circuit as a parallel circuit. This allowed the LEDs to receive a more stable voltage.
-
-Another challenge was preventing short circuits. The positive and negative conductive paths must not touch each other. Therefore, I sewed the positive connections on the back side of the textile and the negative connections on the front side.
+![Testing](./Images/testing.jpg)
 
 ---
 
@@ -76,33 +45,36 @@ Another challenge was preventing short circuits. The positive and negative condu
 
 After changing the conductive thread and redesigning the circuit as a parallel circuit, the LEDs worked correctly.
 
-![Final back view](Images/final-back.jpg)
+![Final back](./Images/final-back.jpg)
 
-![Final illuminated patch](Images/final-light.jpg)
+![Final light](./Images/final-light.jpg)
+
+---
+
+## Problems and Challenges
+
+The first problem appeared after I had finished sewing the circuit. When I inserted the battery, none of the LEDs turned on. After checking the circuit, I discovered that the conductive thread had very high electrical resistance.
+
+After replacing the thread, I faced another issue. Some LEDs did not light up correctly because I had connected them in series instead of parallel. Since conductive thread already has resistance, the series circuit caused a voltage drop.
+
+To solve this, I redesigned the circuit as a parallel circuit.
+
+Another challenge was preventing short circuits. The positive and negative conductive paths must not touch each other. Therefore, I sewed the positive connections on the back side of the textile and the negative connections on the front side.
 
 ---
 
 ## What I Learned
 
-Through this project, I learned:
-
 - how to create a soft circuit on textile
 - how conductive thread works
-- how to identify the positive and negative sides of sewable LEDs
-- why the resistance of conductive thread matters
+- why thread resistance matters
 - the difference between series and parallel circuits
-- why a parallel circuit is better for multiple LEDs
-- how to troubleshoot problems in e-textile circuits
-- why testing during the process is important
+- why parallel circuits are better for multiple LEDs
+- how to troubleshoot e-textile circuits
+- why positive and negative paths must not touch
 
 ---
 
 ## Final Reflection
 
-This project helped me understand that e-textile circuits require both electronic thinking and careful handcrafting.  
-Small details, such as the type of conductive thread or the way LEDs are connected, can strongly affect the final result.
-
-Although I faced several problems during the process, solving them helped me understand soft circuits much better.
-# TEST
-
-[Open Image](Images/materials.jpg)
+This project helped me understand that e-textile circuits require both electronic thinking and careful handcrafting. Small details, such as the type of conductive thread or the way LEDs are connected, can strongly affect the final result.

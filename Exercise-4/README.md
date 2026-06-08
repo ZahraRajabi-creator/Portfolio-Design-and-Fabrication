@@ -106,7 +106,6 @@ Through this project, I learned:
 
 - how to create a soft circuit on textile
 - how conductive thread works
-- how to sew electronic components onto fabric
 - how to identify the positive and negative sides of sewable LEDs
 - why the resistance of conductive thread matters
 - the difference between series and parallel circuits

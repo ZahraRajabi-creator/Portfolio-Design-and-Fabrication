@@ -103,3 +103,6 @@ This project helped me understand that e-textile circuits require both electroni
 Small details, such as the type of conductive thread or the way LEDs are connected, can strongly affect the final result.
 
 Although I faced several problems during the process, solving them helped me understand soft circuits much better.
+# TEST
+
+[Open Image](Images/materials.jpg)

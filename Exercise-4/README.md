@@ -1,4 +1,12 @@
+# Digital Design & Fabrication – Exercise 4  
 # E-Textile LED Heart Patch
+
+**Student:** Zahra Rajabi
+**Course:** Digital Design & Fabrication  
+**University:** Carl von Ossietzky University Oldenburg  
+**Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte
+
+---
 
 ## Project Overview
 

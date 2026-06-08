@@ -36,7 +36,7 @@ The main goal of this project was to gain experience with soft circuits, conduct
 
 At the beginning, I explored the available e-textile and sewing materials.
 
-![Available materials](images/materials.jpg)
+![Available materials](Images/materials.jpg)
 
 ---
 
@@ -52,8 +52,6 @@ One layer was used as the base for the circuit, and the second layer was used as
 ### 3. Planning the Layout
 
 Before sewing, I placed the battery holder in the center and arranged six LEDs around it.
-
-![Component layout](images/component-layout.jpg)
 
 ---
 

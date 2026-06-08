@@ -27,7 +27,9 @@ The patch is shaped like a heart and includes six sewable LEDs, a coin-cell batt
 - Regular sewing thread
 
 ![Available materials](Images/materials.jpg)
+## Test
 
+<img src="./Images/materials.jpg" width="600">
 ---
 
 ## Process

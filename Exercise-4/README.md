@@ -15,13 +15,12 @@ In this exercise, I created an e-textile heart-shaped patch with six sewable LED
 
 ## Materials
 
-![Materials](Images/materials.jpg)
 
 ---
 
 ## Preparing the Textile Base
 
-![Heart pieces](./Images/heart-pieces.jpg)
+
 
 ---
 
@@ -29,15 +28,12 @@ In this exercise, I created an e-textile heart-shaped patch with six sewable LED
 
 To avoid short circuits, I separated the conductive paths. The positive connections were sewn on the back side of the textile, while the negative connections were sewn on the front side.
 
-![Sewing process](./Images/sewing-process.jpg)
 
----
 
 ## Testing and Debugging
 
 At first, the LEDs did not work correctly because the conductive thread had very high resistance. Later, I also realized that I had connected the LEDs in series instead of parallel.
 
-![Testing](./Images/testing.jpg)
 
 ---
 
@@ -45,9 +41,6 @@ At first, the LEDs did not work correctly because the conductive thread had very
 
 After changing the conductive thread and redesigning the circuit as a parallel circuit, the LEDs worked correctly.
 
-![Final back](./Images/final-back.jpg)
-
-![Final light](./Images/final-light.jpg)
 
 ---
 

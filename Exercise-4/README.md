@@ -45,7 +45,7 @@ At the beginning, I explored the available e-textile and sewing materials.
 I chose a heart shape for my patch and cut two textile pieces.  
 One layer was used as the base for the circuit, and the second layer was used as the cover.
 
-![Heart textile pieces](images/heart-pieces.jpg)
+![Heart textile pieces](Images/heart-pieces.jpg)
 
 ---
 
@@ -60,7 +60,7 @@ Before sewing, I placed the battery holder in the center and arranged six LEDs a
 I used conductive thread to connect the LEDs with the battery holder.
 To avoid short circuits, I separated the conductive paths. The positive connections were sewn on the back side of the textile, while the negative connections were sewn on the front side. This ensured that the conductive threads did not cross or touch each other during operation.
 
-![Sewing process](images/sewing-process.jpg)
+![Sewing process](Images/sewing-process.jpg)
 
 ---
 
@@ -70,7 +70,7 @@ During testing, the LEDs did not work correctly at first.
 Some LEDs did not turn on because the first conductive thread had a very high resistance.  
 Later, I also realized that I had connected the LEDs in series instead of parallel.
 
-![Testing circuit](images/testing.jpg)
+![Testing circuit](Images/testing.jpg)
 
 ---
 
@@ -78,11 +78,11 @@ Later, I also realized that I had connected the LEDs in series instead of parall
 
 After changing the conductive thread and redesigning the circuit as a parallel circuit, the LEDs worked correctly.
 
-![Final front view](images/final-front.jpg)
+![Final front view](Images/final-front.jpg)
 
-![Final back view](images/final-back.jpg)
+![Final back view](Images/final-back.jpg)
 
-![Final illuminated patch](images/final-light.jpg)
+![Final illuminated patch](Images/final-light.jpg)
 
 ---
 

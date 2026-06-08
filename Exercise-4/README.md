@@ -40,7 +40,7 @@ At first, the LEDs did not work correctly because the conductive thread had very
 ## Final Result
 
 After changing the conductive thread and redesigning the circuit as a parallel circuit, the LEDs worked correctly.
-
+![Final Back](Images/final-back.jpg)
 
 ---
 

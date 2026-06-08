@@ -15,7 +15,7 @@ In this exercise, I created an e-textile heart-shaped patch with six sewable LED
 
 ## Materials
 
-![Materials](./Images/materials.jpg)
+![Materials](Images/materials.jpg)
 
 ---
 

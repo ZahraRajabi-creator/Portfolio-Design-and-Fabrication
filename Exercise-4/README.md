@@ -13,7 +13,7 @@ In this exercise, I created an e-textile heart-shaped patch with six sewable LED
 ## How It Was Made
 
 <p align="center">
-  <video src="Video/demo.mp4" width="650" controls></video>
+  <Video src="Video/demo.mp4" width="650" controls></Video>
 </p>
 
 ---

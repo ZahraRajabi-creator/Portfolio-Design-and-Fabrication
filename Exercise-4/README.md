@@ -44,7 +44,9 @@ To avoid short circuits, I separated the conductive paths. The positive connecti
 ## Testing and Debugging
 
 At first, the LEDs did not work correctly because the conductive thread had very high resistance. Later, I also realized that I had connected the LEDs in series instead of parallel.
-
+<p align="center">
+  <img src="Images/Testing.jpg" width="650">
+</p>
 
 ---
 

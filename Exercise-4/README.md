@@ -32,7 +32,10 @@ In this exercise, I created an e-textile heart-shaped patch with six sewable LED
 ## Sewing Process
 
 To avoid short circuits, I separated the conductive paths. The positive connections were sewn on the back side of the textile, while the negative connections were sewn on the front side.
-
+<p align="center">
+  <img src="Images/sewing-front.jpg" width="600"><br><br>
+  <img src="Images/sewing-back.jpg" width="600">
+</p>
 
 
 ## Testing and Debugging

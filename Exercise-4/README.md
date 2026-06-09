@@ -24,7 +24,10 @@ In this exercise, I created an e-textile heart-shaped patch with six sewable LED
 ---
 
 ## Preparing the Textile Base
-
+I chose a heart shape for my patch and cut two textile pieces. One layer was used as the base for the circuit, and the second layer was used as the cover.
+<p align="center">
+  <img src="Images/Base.jpg" width="650">
+</p>
 
 
 ---

@@ -89,5 +89,12 @@ Another challenge was preventing short circuits. The positive and negative condu
 ---
 
 ## Final Reflection
-
 This project helped me understand that e-textile circuits require both electronic thinking and careful handcrafting. Small details, such as the type of conductive thread or the way LEDs are connected, can strongly affect the final result.
+
+Here is the final result:
+
+<p align="center">
+  <img src="images/final.jpg" width="500">
+</p>
+
+This was a very interesting and enjoyable project for me.

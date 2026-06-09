@@ -11,9 +11,8 @@
 
 In this exercise, I created an e-textile heart-shaped patch with six sewable LEDs, a coin-cell battery holder, and conductive thread.
 ## How It Was Made
-
 <p align="center">
-  <Video src="Video/demo.mp4" width="650" controls></Video>
+  [▶️ Watch the Video](Video/demo.mp4)
 </p>
 
 ---

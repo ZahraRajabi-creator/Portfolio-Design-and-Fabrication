@@ -94,7 +94,7 @@ This project helped me understand that e-textile circuits require both electroni
 Here is the final result:
 
 <p align="center">
-  <img src="images/final.jpg" width="500">
+  <img src="images/final6.jpg" width="500">
 </p>
 
 This was a very interesting and enjoyable project for me.

@@ -20,10 +20,6 @@ I started by creating the layout in Inkscape. The card contains my name, academi
 
 Because the business card is relatively small, I tried to keep the design clean and easy to read. The portrait and text were prepared for raster engraving, while the outer contour was prepared for vector cutting.
 
-## Design Preparation
-
-![Design Preparation](Images/laser_settings.jpg)
-
 ---
 
 # Material Selection
@@ -35,6 +31,10 @@ Before starting the fabrication process, the material thickness was measured usi
 ![Material Thickness Measurement](Images/material_measurement.jpg)
 
 The measured thickness was approximately 3.43 mm.
+
+## laser_machine Preparation
+
+![Design Preparation](Images/laser_settings.jpg)
 
 ---
 
@@ -53,6 +53,12 @@ The engraving step was completed first using raster mode.
 ![Engraving Process](Images/engraving_process.jpg)
 
 After the engraving was finished, the machine cut the outer contour of the card using vector mode.
+
+## Fabrication Video
+
+A short video of the laser engraving and cutting process can be found below:
+
+[Laser Fabrication Video](Videos/laser_cutting.mp4)
 
 ---
 

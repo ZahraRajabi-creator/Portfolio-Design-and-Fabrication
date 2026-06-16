@@ -58,7 +58,7 @@ After the engraving was finished, the machine cut the outer contour of the card 
 
 A short video of the laser engraving and cutting process can be found below:
 
-[Laser Fabrication Video](Videos/laser_cutting.mp4)
+[Laser Fabrication Video](video/laser_cutting.mp4)
 
 ---
 

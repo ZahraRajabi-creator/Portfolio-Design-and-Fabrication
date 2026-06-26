@@ -19,7 +19,7 @@ During the workshop, the instructors explained the CNC milling process, from pre
 For this exercise, I designed my own tea light candle holder as a vector drawing in Inkscape. The design includes a custom outer shape and a circular pocket for a standard tea light candle.
 
 <p align="center">
-  <img src="Images/design.svg" width="40%">
+  <img src="Images/design.svg" width="35%">
 </p>
 
 ---
@@ -31,8 +31,8 @@ Before the machining process, we were introduced to the CNC machine and its main
 ### CNC Machine
 
 <p align="center">
-  <img src="Images/cnc_01.jpg" width="40%">
-  <img src="Images/cnc_02.jpg" width="40%">
+  <img src="Images/cnc_01.jpg" width="35%">
+  <img src="Images/cnc_02.jpg" width="35%">
 </p>
 
 ---
@@ -42,13 +42,13 @@ Before the machining process, we were introduced to the CNC machine and its main
 During the class, the instructors demonstrated the milling process using a sample workpiece while explaining each machining step. This included creating the pocket for the candle and cutting the outer profile.
 
 <p align="center">
-  <img src="Images/cnc_03.jpg" width="47%">
-  <img src="Images/cnc_04.jpg" width="47%">
+  <img src="Images/cnc_03.jpg" width="35%">
+  <img src="Images/cnc_04.jpg" width="35%">
 </p>
 
 <p align="center">
-  <img src="Images/cnc_05.jpg" width="47%">
-  <img src="Images/cnc_06.jpg" width="47%">
+  <img src="Images/cnc_05.jpg" width="35%">
+  <img src="Images/cnc_06.jpg" width="35%">
 </p>
 
 ---
@@ -58,8 +58,8 @@ During the class, the instructors demonstrated the milling process using a sampl
 The controller software was used to load the machining program, monitor the tool position, and control the milling process.
 
 <p align="center">
-  <img src="Images/cnc_07.jpg" width="47%">
-  <img src="Images/cnc_08.jpg" width="47%">
+  <img src="Images/cnc_07.jpg" width="35%">
+  <img src="Images/cnc_08.jpg" width="35%">
 </p>
 
 ---

@@ -3,7 +3,7 @@
 
 **Student:** Zahra Rajabi  
 **University:** Carl von Ossietzky University Oldenburg  
-**Course:** Digital Design & Fabrication
+
 
 ---
 

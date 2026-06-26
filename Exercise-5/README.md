@@ -19,10 +19,9 @@ During the workshop, the instructors explained the CNC milling process, from pre
 For this exercise, I designed my own tea light candle holder as a vector drawing in Inkscape. The design includes a custom outer shape and a circular pocket for a standard tea light candle.
 
 <p align="center">
-  <img src="Images/design.svg" width="35%">
- <img src="Images/design_workspace.jpg" width="35%">
+  <img src="Images/design.svg" width="42%">
+  <img src="Images/design_workspace.jpg" width="42%">
 </p>
-
 ---
 
 ## Workshop

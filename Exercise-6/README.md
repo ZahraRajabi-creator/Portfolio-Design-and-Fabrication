@@ -1,4 +1,5 @@
-# Exercise 6 – Laser Cut Business Card
+# digital design and Fabrication - Exercise 6 
+# Laser cut Business Card
 
 **Student:** Zahra Rajabi  
 **University:** Carl von Ossietzky University Oldenburg  

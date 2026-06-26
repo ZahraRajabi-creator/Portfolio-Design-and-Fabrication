@@ -2,8 +2,7 @@
 # CNC Milling – Wooden Tea Light Candle Holder
 
 **Student:** Zahra Rajabi  
-**University:** Carl von Ossietzky University Oldenburg  
-
+**University:** Carl von Ossietzky University Oldenburg
 
 ---
 
@@ -19,7 +18,9 @@ During the workshop, the instructors explained the CNC milling process, from pre
 
 For this exercise, I designed my own tea light candle holder as a vector drawing in Inkscape. The design includes a custom outer shape and a circular pocket for a standard tea light candle.
 
-![Design](Images/design.svg)
+<p align="center">
+  <img src="Images/design.svg" width="55%">
+</p>
 
 ---
 
@@ -28,23 +29,27 @@ For this exercise, I designed my own tea light candle holder as a vector drawing
 Before the machining process, we were introduced to the CNC machine and its main components. The instructors explained how the workpiece is fixed, how the machine origin is set, and how the milling program is prepared before machining begins.
 
 ### CNC Machine
+
 <p align="center">
-  <img src="Images/cnc_01.jpeg" width="48%">
-  <img src="Images/cnc_02.jpeg" width="48%">
+  <img src="Images/cnc_01.jpg" width="47%">
+  <img src="Images/cnc_02.jpg" width="47%">
 </p>
+
 ---
 
 ## CNC Milling Demonstration
 
 During the class, the instructors demonstrated the milling process using a sample workpiece while explaining each machining step. This included creating the pocket for the candle and cutting the outer profile.
 
-![Milling Process](Images/cnc_03.jpg)
+<p align="center">
+  <img src="Images/cnc_03.jpg" width="47%">
+  <img src="Images/cnc_04.jpg" width="47%">
+</p>
 
-![Milling Process](Images/cnc_04.jpg)
-
-![Milling Process](Images/cnc_05.jpg)
-
-![Milling Process](Images/cnc_06.jpg)
+<p align="center">
+  <img src="Images/cnc_05.jpg" width="47%">
+  <img src="Images/cnc_06.jpg" width="47%">
+</p>
 
 ---
 
@@ -52,9 +57,10 @@ During the class, the instructors demonstrated the milling process using a sampl
 
 The controller software was used to load the machining program, monitor the tool position, and control the milling process.
 
-![Controller](Images/cnc_07.jpg)
-
-![Controller](Images/cnc_08.jpg)
+<p align="center">
+  <img src="Images/cnc_07.jpg" width="47%">
+  <img src="Images/cnc_08.jpg" width="47%">
+</p>
 
 ---
 
@@ -62,7 +68,9 @@ The controller software was used to load the machining program, monitor the tool
 
 After the machining was completed, I received the finished version of my design. The candle holder was milled from hardwood and matched the original vector drawing.
 
-![Final Result](Images/final_result.jpg)
+<p align="center">
+  <img src="Images/final_result.jpg" width="45%">
+</p>
 
 ---
 

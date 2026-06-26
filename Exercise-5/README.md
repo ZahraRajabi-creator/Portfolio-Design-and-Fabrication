@@ -28,11 +28,10 @@ For this exercise, I designed my own tea light candle holder as a vector drawing
 Before the machining process, we were introduced to the CNC machine and its main components. The instructors explained how the workpiece is fixed, how the machine origin is set, and how the milling program is prepared before machining begins.
 
 ### CNC Machine
-
-![CNC Machine](Images/cnc_01.jpg)
-
-![CNC Machine](Images/cnc_02.jpg)
-
+<p align="center">
+  <img src="images/cnc_01.jpeg" width="48%">
+  <img src="images/cnc_02.jpeg" width="48%">
+</p>
 ---
 
 ## CNC Milling Demonstration

@@ -3,7 +3,7 @@
 
 **Student:** Zahra Rajabi  
 **University:** Carl von Ossietzky University Oldenburg
-
+**Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte
 ---
 
 ## Project Overview

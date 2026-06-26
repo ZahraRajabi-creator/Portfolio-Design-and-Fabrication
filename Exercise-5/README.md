@@ -20,6 +20,7 @@ For this exercise, I designed my own tea light candle holder as a vector drawing
 
 <p align="center">
   <img src="Images/design.svg" width="35%">
+ <img src="Images/design_workspace.jpg" width="35%">
 </p>
 
 ---

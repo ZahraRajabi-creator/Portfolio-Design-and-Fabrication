@@ -1,5 +1,5 @@
 **Digital Design & Fabrication – Exercise 5**
-# CNC Milling – Wooden Tea Light Candle Holder
+**CNC Milling – Wooden Tea Light Candle Holder
 
 **Student:** Zahra Rajabi  
 **University:** Carl von Ossietzky University Oldenburg  

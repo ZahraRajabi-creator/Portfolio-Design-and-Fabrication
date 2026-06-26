@@ -29,8 +29,8 @@ Before the machining process, we were introduced to the CNC machine and its main
 
 ### CNC Machine
 <p align="center">
-  <img src="images/cnc_01.jpeg" width="48%">
-  <img src="images/cnc_02.jpeg" width="48%">
+  <img src="Images/cnc_01.jpeg" width="48%">
+  <img src="Images/cnc_02.jpeg" width="48%">
 </p>
 ---
 

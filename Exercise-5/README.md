@@ -1,11 +1,51 @@
-# Digital Design & Fabrication – Exercise 5 
+# Digital Design & Fabrication – Exercise 5
 
 ## CNC Milling Portfolio
 
-**Student:** Zahra Rajabi
+**Student:** Zahra Rajabi  
 **Course:** Digital Design & Fabrication  
 **University:** Carl von Ossietzky University Oldenburg  
-**Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte
+**Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte  
+
+## Project Overview
+
+This exercise introduced the basic workflow of CNC milling. The goal was to design a wooden tea light candle holder in Inkscape and learn how a digital design is prepared for manufacturing.
+
+During the workshop, the instructors explained the CNC milling process, from preparing the material to machining the final object. Our designs were then milled from hardwood using the CNC machine.
+
+---
+
+## My Design
+
+For this exercise, I designed my own tea light candle holder as a vector drawing in Inkscape. The design includes a custom outer shape and a circular pocket for a standard tea light candle.
+
+---
+
+## Process
+
+The design was first created in Inkscape as a vector file. After that, the file was prepared for CNC milling. The milling process included setting the correct tool paths, preparing the wooden material, and milling the final shape with the CNC machine.
+
+---
+
+## Images
+
+![Design Workspace](Image/design_workspace.jpg)
+
+![CNC Process](Image/cnc_01.jpg)
+
+![Final Result](Image/final_result.jpg)
+
+---
+
+## Final Result
+
+The final object was a wooden tea light candle holder produced with CNC milling. This exercise helped me understand how digital vector designs can be turned into physical objects using computer-controlled manufacturing.
+
+---
+
+## Reflection
+
+Through this exercise, I learned how important it is to prepare a clean design file before CNC milling. I also understood that the milling process depends on correct tool paths, material preparation, and machine settings.
 ---
 
 ## Project Overview

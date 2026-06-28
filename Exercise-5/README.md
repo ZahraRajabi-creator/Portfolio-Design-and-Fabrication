@@ -18,7 +18,11 @@ During the workshop, the instructors explained the CNC milling process, from pre
 
 ## My Design
 
-For this exercise, I designed my own tea light candle holder as a vector drawing in Inkscape. The design includes a custom outer shape and a circular pocket for a standard tea light candle.
+For this exercise, I designed my own candle holder as a vector drawing in Inkscape.
+
+I created a simple house-shaped design using basic geometric shapes: a rectangle for the main body, a smaller rectangle for the chimney, and a triangle for the roof. To give the roof a softer appearance, I rounded the corners of the triangle using the Node Tool, creating a cleaner and more decorative outline.
+
+A circular pocket was added in the center to hold a standard candle.
 
 <p align="center">
   <img src="Images/design.svg" width="42%">
@@ -62,7 +66,7 @@ During the class, the instructors demonstrated the milling process using a sampl
 
 ## Final Result
 
-After the machining was completed, I received the finished version of my design. The candle holder was milled from hardwood and matched the original vector drawing.
+The final candle holder was manufactured from hardwood using my original design. Comparing the finished piece with the vector drawing made it easy to see how accurately the CNC machine reproduced the shape while preserving the overall design.
 
 <p align="center">
   <img src="Images/final_result.jpg" width="45%">

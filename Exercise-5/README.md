@@ -52,13 +52,6 @@ During the class, the instructors demonstrated the milling process using a sampl
 <p align="center">
   <img src="Images/cnc_05.jpg" width="35%">
   <img src="Images/cnc_06.jpg" width="35%">
-</p>
-
----
-
-## CNC Controller
-
-The controller software was used to load the machining program, monitor the tool position, and control the milling process.
 
 <p align="center">
   <img src="Images/cnc_07.jpg" width="35%">

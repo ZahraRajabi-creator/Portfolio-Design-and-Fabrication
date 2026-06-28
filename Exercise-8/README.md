@@ -1,4 +1,4 @@
-# Exercise 7 – OnShape Self-Study
+# Exercise 8 – OnShape Self-Study
 
 ## Completed Courses
 

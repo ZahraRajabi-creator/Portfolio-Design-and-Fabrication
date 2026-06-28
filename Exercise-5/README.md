@@ -1,10 +1,10 @@
-**Digital Design & Fabrication – Exercise 5**
-**CNC Milling – Wooden Tea Light Candle Holder
+# Digital Design & Fabrication – Exercise 5 
+## CNC Milling Portfolio
 
-**Student:** Zahra Rajabi  
+**Student:** Zahra Rajabi
+**Course:** Digital Design & Fabrication  
 **University:** Carl von Ossietzky University Oldenburg  
 **Lecturers:** Prof. Dr. Susanne Boll-Westermann, Mikołaj Woźniak, Tobias Lunte
-
 ---
 
 ## Project Overview

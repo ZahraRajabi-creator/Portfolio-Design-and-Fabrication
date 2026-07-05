@@ -159,7 +159,7 @@ The final model was successfully printed using PLA filament.
 
 The rotating MagSafe mount works as intended and allows the phone to be rotated smoothly while remaining securely attached. The stand provides a stable base for everyday activities such as charging, watching videos, or participating in online meetings.
 
-### Portrait Mode
+
 
 <p align="center">
 
@@ -167,7 +167,7 @@ The rotating MagSafe mount works as intended and allows the phone to be rotated 
 
 </p>
 
-### Landscape Mode
+
 
 <p align="center">
 
@@ -175,7 +175,7 @@ The rotating MagSafe mount works as intended and allows the phone to be rotated 
 
 </p>
 
-### Side View
+
 
 <p align="center">
 
@@ -183,7 +183,7 @@ The rotating MagSafe mount works as intended and allows the phone to be rotated 
 
 </p>
 
-### Rotating MagSafe Mount
+
 
 <p align="center">
 

@@ -94,8 +94,14 @@ I also created an opening in the base of the stand to allow the charging cable t
 
 The complete project files can be found in the **Files** folder.
 
+## Project Files
+
+The complete project files can be found in the **files** folder.
+
 - 📁 [Fusion 360 Model (.f3d)](files/PhoneHolder_Zahra_Rajabi.f3d)
+
 - 📁 [STEP Model (.step)](files/Phone_holder_Zahra_Rajabi.step)
+
 - 📁 [QIDI Studio Project (.3mf)](files/Phone_Holder_Zahra_Rajabi.gcode.3mf)
 
 # Preparing for 3D Printing

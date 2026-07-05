@@ -69,9 +69,9 @@ Finally, fillets were applied to the sharp edges to improve both the appearance 
 
 <p align="center">
 
-<img src="images/fusion_step1.jpg" width="280">
+<img src="images/fusion_step1.jpg" width="300">
 
-<img src="images/fusion_step2.jpg" width="280">
+<img src="images/fusion_step2.jpg" width="300">
 
 </p>
 
@@ -91,16 +91,16 @@ I also created an opening in the base of the stand to allow the charging cable t
 
 The complete project files can be found in the **Files** folder.
 
-- 📁 [Fusion 360 Model (.f3d)](Files/PhoneHolder_Zahra_Rajabi.f3d)
-- 📁 [STEP Model (.step)](Files/Phone_holder_Zahra_Rajabi.step)
-- 📁 [QIDI Studio Project (.3mf)](Files/Phone_Holder_Zahra_Rajabi.gcode.3mf)
+- 📁 [Fusion 360 Model (.f3d)](files/PhoneHolder_Zahra_Rajabi.f3d)
+- 📁 [STEP Model (.step)](files/Phone_holder_Zahra_Rajabi.step)
+- 📁 [QIDI Studio Project (.3mf)](files/Phone_Holder_Zahra_Rajabi.gcode.3mf)
 
 # Preparing for 3D Printing
 
 The STL model was imported into QIDI Studio for slicing.
 
 <p align="center">
-  <img src="images/qidi_buildplate.jpg" width="280">
+  <img src="images/qidi_buildplate.jpg" width="300">
 </p>
 
 The following settings were applied:

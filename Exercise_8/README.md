@@ -1,6 +1,8 @@
-# Exercise 8 – Rotating MagSafe Phone Holder
+# digital design and Fabrication - Exercise 8 
+# 3D Printing
 
-**Course:** Digital Design and Fabrication (inf175)
+**Student:** Zahra Rajabi  
+**University:** Carl von Ossietzky University Oldenburg  
 
 **Software:** Autodesk Fusion 360, QIDI Studio
 

@@ -114,21 +114,6 @@ The following settings were applied:
 
 ---
 
-# Slicing
-
-## Print Settings
-
-| Parameter | Value |
-|-----------|-------|
-| Printer | QIDI Q2 |
-| Material | PLA Rapido |
-| Layer Height | 0.20 mm |
-| Infill | 15% |
-| Wall Count | 2 |
-| Top Layers | 5 |
-| Bottom Layers | 3 |
-| Supports | Tree Supports |
-
 ### Printing Orientation
 
 The model was positioned to minimize support material while maintaining stability during printing.

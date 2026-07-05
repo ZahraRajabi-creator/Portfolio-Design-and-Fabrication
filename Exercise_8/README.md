@@ -69,27 +69,17 @@ Finally, fillets were applied to the sharp edges to improve both the appearance 
 
 <p align="center">
 
-<img src="images/fusion_step1.png" width="220">
+<img src="images/fusion_step1.jpg" width="280">
 
-<img src="images/fusion_step2.png" width="220">
-
-</p>
-
-<p align="center">
-
-<img src="images/fusion_step3.png" width="220">
-
-<img src="images/fusion_step4.png" width="220">
+<img src="images/fusion_step2.png" width="280">
 
 </p>
 
-<p align="center">
+## Fusion 360 Project File
 
-<img src="images/fusion_step5.png" width="220">
+The complete Autodesk Fusion 360 file is included in the **Files** folder.
 
-<img src="images/qidi_preview.png" width="220">
-
-</p>
+[Download Fusion 360 file](Files/PhoneHolder_Zahra_Rajabi.f3d)
 
 ---
 
@@ -106,6 +96,10 @@ I also created an opening in the base of the stand to allow the charging cable t
 # Preparing for 3D Printing
 
 The STL model was imported into QIDI Studio for slicing.
+
+<p align="center">
+  <img src="images/qidi_buildplate.jpg" width="280">
+</p>
 
 The following settings were applied:
 
@@ -138,6 +132,22 @@ The complete slicer project is included in the **Files** folder (`.3mf`) and con
 | Top Layers | 5 |
 | Bottom Layers | 3 |
 | Supports | Tree Supports |
+
+### Printing Orientation
+
+The model was positioned to minimize support material while maintaining stability during printing.
+
+<p align="center">
+  <img src="images/qidi_side_view.jpg" width="280">
+</p>
+
+### Slicing Result
+
+The slicing process completed successfully. The final estimation included approximately **145 g** of filament and an estimated print time of about **4 hours and 47 minutes**.
+
+<p align="center">
+  <img src="images/qidi_slicing_result.png" width="280">
+</p>
 
 ---
 

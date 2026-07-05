@@ -1,5 +1,5 @@
 # Digital Design and Fabrication - Exercise 8 
-# 3D Printing
+# 3D Printing - Rotating Phone Holder
 
 **Student:** Zahra Rajabi  
 **University:** Carl von Ossietzky University Oldenburg  
@@ -92,10 +92,6 @@ I also created an opening in the base of the stand to allow the charging cable t
 
 ## Project Files
 
-The complete project files can be found in the **Files** folder.
-
-## Project Files
-
 The complete project files can be found in the **files** folder.
 
 - 📁 [Fusion 360 Model (.f3d)](files/PhoneHolder_Zahra_Rajabi.f3d)
@@ -135,8 +131,7 @@ The model was positioned to minimize support material while maintaining stabilit
 
 ### Slicing Result
 
-The slicing process completed successfully. The final estimation included approximately **145 g** of filament and an estimated print time of about **4 hours and 47 minutes**.
-
+The slicing process completed successfully. 
 <p align="center">
   <img src="images/qidi_slicing_result.jpg" width="300">
 </p>
@@ -201,4 +196,4 @@ This exercise gave me a much better understanding of the complete workflow of ad
 
 The most valuable part of the project was learning how design decisions directly affect printability, material consumption, and structural strength. Designing the rotating MagSafe mechanism required several iterations before achieving a functional solution.
 
-Overall, this project improved both my CAD modelling skills in Fusion 360 and my understanding of preparing models for FDM 3D printing.
+Overall, this project improved both my CAD modelling skills and my understanding of preparing models for FDM 3D printing.

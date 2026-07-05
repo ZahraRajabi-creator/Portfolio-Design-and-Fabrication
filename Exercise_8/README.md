@@ -71,7 +71,7 @@ Finally, fillets were applied to the sharp edges to improve both the appearance 
 
 <img src="images/fusion_step1.jpg" width="280">
 
-<img src="images/fusion_step2.png" width="280">
+<img src="images/fusion_step2.jpg" width="280">
 
 </p>
 
@@ -116,10 +116,6 @@ The following settings were applied:
 
 # Slicing
 
-After selecting the appropriate print settings, the model was sliced successfully.
-
-The complete slicer project is included in the **Files** folder (`.3mf`) and contains all print settings, orientation, supports, and slicing parameters used for the final print.
-
 ## Print Settings
 
 | Parameter | Value |
@@ -138,7 +134,7 @@ The complete slicer project is included in the **Files** folder (`.3mf`) and con
 The model was positioned to minimize support material while maintaining stability during printing.
 
 <p align="center">
-  <img src="images/qidi_side_view.jpg" width="280">
+  <img src="images/qidi_side_view.jpg" width="300">
 </p>
 
 ### Slicing Result
@@ -146,7 +142,7 @@ The model was positioned to minimize support material while maintaining stabilit
 The slicing process completed successfully. The final estimation included approximately **145 g** of filament and an estimated print time of about **4 hours and 47 minutes**.
 
 <p align="center">
-  <img src="images/qidi_slicing_result.png" width="280">
+  <img src="images/qidi_slicing_result.jpg" width="300">
 </p>
 
 ---

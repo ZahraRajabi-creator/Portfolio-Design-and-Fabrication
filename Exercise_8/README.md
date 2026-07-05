@@ -39,19 +39,11 @@ The main design goals were:
 
 I started by creating the base sketch in Autodesk Fusion 360. The dimensions were selected to provide a stable foundation while keeping the overall design compact.
 
-<p align="center">
-<img src="images/step1_base.png" width="650">
-</p>
-
 ---
 
 ## Step 2 – Creating the Back Support
 
 Next, I designed the inclined back support that holds the rotating phone mount. The angle was chosen to provide a comfortable viewing position while keeping the stand stable.
-
-<p align="center">
-<img src="images/step2_back_support.png" width="650">
-</p>
 
 ---
 
@@ -59,19 +51,11 @@ Next, I designed the inclined back support that holds the rotating phone mount. 
 
 The circular MagSafe holder was created and positioned in the center of the back support. This rotating part allows the phone to be adjusted easily without removing it from the holder.
 
-<p align="center">
-<img src="images/step3_magsafe.png" width="650">
-</p>
-
 ---
 
 ## Step 4 – Creating the Phone Supports
 
 Small support arms were added at the bottom to prevent the phone from sliding while keeping the screen fully visible.
-
-<p align="center">
-<img src="images/step4_supports.png" width="650">
-</p>
 
 ---
 
@@ -79,8 +63,32 @@ Small support arms were added at the bottom to prevent the phone from sliding wh
 
 Finally, fillets were applied to the sharp edges to improve both the appearance and the structural strength of the phone holder.
 
+---
+
+## Design Process
+
 <p align="center">
-<img src="images/step5_fillets.png" width="650">
+
+<img src="images/fusion_step1.png" width="220">
+
+<img src="images/fusion_step2.png" width="220">
+
+</p>
+
+<p align="center">
+
+<img src="images/fusion_step3.png" width="220">
+
+<img src="images/fusion_step4.png" width="220">
+
+</p>
+
+<p align="center">
+
+<img src="images/fusion_step5.png" width="220">
+
+<img src="images/qidi_preview.png" width="220">
+
 </p>
 
 ---
@@ -110,19 +118,13 @@ The following settings were applied:
 - Bottom Layers: 3
 - Tree Supports enabled
 
-<p align="center">
-<img src="images/qidi_prepare.png" width="700">
-</p>
-
 ---
 
 # Slicing
 
 After selecting the appropriate print settings, the model was sliced successfully.
 
-<p align="center">
-<img src="images/qidi_slice.png" width="700">
-</p>
+The complete slicer project is included in the **files** folder (`.3mf`) and contains all print settings, orientation, supports, and slicing parameters used for the final print.
 
 ## Print Settings
 

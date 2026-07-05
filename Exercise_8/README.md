@@ -124,7 +124,7 @@ The following settings were applied:
 
 After selecting the appropriate print settings, the model was sliced successfully.
 
-The complete slicer project is included in the **files** folder (`.3mf`) and contains all print settings, orientation, supports, and slicing parameters used for the final print.
+The complete slicer project is included in the **Files** folder (`.3mf`) and contains all print settings, orientation, supports, and slicing parameters used for the final print.
 
 ## Print Settings
 

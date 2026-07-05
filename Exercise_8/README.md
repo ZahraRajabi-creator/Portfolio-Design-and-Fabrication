@@ -1,10 +1,13 @@
-# digital design and Fabrication - Exercise 8 
+# Digital Design and Fabrication - Exercise 8 
 # 3D Printing
 
 **Student:** Zahra Rajabi  
 **University:** Carl von Ossietzky University Oldenburg  
+
 **Software:** Autodesk Fusion 360, QIDI Studio
+
 **Printer:** QIDI Q2
+
 **Material:** PLA Rapido
 
 ---

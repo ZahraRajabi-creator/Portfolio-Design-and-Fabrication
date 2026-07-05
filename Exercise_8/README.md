@@ -75,12 +75,6 @@ Finally, fillets were applied to the sharp edges to improve both the appearance 
 
 </p>
 
-## Fusion 360 Project File
-
-The complete Autodesk Fusion 360 file is included in the **Files** folder.
-
-[Download Fusion 360 file](Files/PhoneHolder_Zahra_Rajabi.f3d)
-
 ---
 
 # Design Decisions
@@ -92,6 +86,14 @@ Initially, I planned to add two additional side clips around the rotating MagSaf
 I also created an opening in the base of the stand to allow the charging cable to pass through the holder. Besides improving usability, this opening also removed unnecessary material and slightly reduced the estimated filament usage during slicing.
 
 ---
+
+## Project Files
+
+The complete project files can be found in the **Files** folder.
+
+- 📁 [Fusion 360 Model (.f3d)](Files/PhoneHolder_Zahra_Rajabi.f3d)
+- 📁 [STEP Model (.step)](Files/Phone_holder_Zahra_Rajabi.step)
+- 📁 [QIDI Studio Project (.3mf)](Files/Phone_Holder_Zahra_Rajabi.gcode.3mf)
 
 # Preparing for 3D Printing
 

@@ -44,7 +44,7 @@ and reflection.
 
 ## About
 
-**Zahra (Mobina) Rajabi** — student in Engineering of Socio-Technical Systems
+**Zahra Rajabi** — student in Engineering of Socio-Technical Systems
 at the University of Oldenburg, working at OFFIS – Institute for Information
 Technology in the HCI Group.
 
